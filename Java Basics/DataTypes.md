@@ -1,0 +1,29 @@
+## Data Types
+- A data type is a set of values and a set of operations on those values.
+	- Primitive data types
+		- int, double, boolean, char, long, short, float
+	- Non-primitive data types
+		- String and Scanner
+			- Operations are more complex (richer set of operations)
+- We want to fill these data types with values:
+	- ex. int i = 5;
+	- String word = ("Now is the time");
+- We can use classes to reference certain data types.
+	- ex. 1100111001 would be the memory address for int i, while String would be in the memory address 1100111101
+- String Operations
+	- String otherWord = word.substring(0,5);
+	- length()
+	- charAt(i)
+	- indexOf("t")
+	- replace("t","T")
+	- concat() (shortcut is +).
+		- You would need to *save* the location of these actions.
+			- Ex. char letter = word.chatAt(b)
+			- Ex. int loc = word.indexOf("t")
+			- Ex. String upper = word.replace("t", "T")
+- Making new Objects
+	- We can use constructors to create new objects.
+		- Ex. String otherWord = new String("blah");
+			- This is the long handed form of an already simplified shortcut:
+				- String otherWord = ("blah");
+	- String[] theWords = words.split(" ");
