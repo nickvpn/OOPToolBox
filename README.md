@@ -1,7 +1,8 @@
 # OOPToolBox
 A generalized code library for select topics regarding Object Oriented Programming in Java.
+As of now, I have no time to sort them. Feel free to look around and analyze my files.
 
-## TBA:
+## Includes:
  - Inheritance, Encapsulation, Overriding, things of that nature
  - Recursion
  - ArrayLists, (generic form included)
@@ -13,4 +14,3 @@ A generalized code library for select topics regarding Object Oriented Programmi
  - Example Assignments via prior Labs and/or codingbat
 
 These topics would be generally covered within a 2nd semester course in software development, focused solely in Java.
-Hopefully, this will be a great preparation into a Algorithms/Data Structures Class.
